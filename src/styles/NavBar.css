@@ -1,0 +1,24 @@
+/* Make navbar larger */
+.navbar-large {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  font-family: Fira-Sans-Condensed, sans-serif;
+}
+
+.navbar-large .navbar-brand,
+.navbar-large .nav-link {
+  font-size: 1.5rem;
+}
+
+
+.navbar-large .navbar-brand-font{
+    font-family: Julee, cursive;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.navbar-large .brand-background{
+    background-color: #c72a2a;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}

@@ -1,0 +1,18 @@
+.carousel-img {
+  height: 33rem;
+  object-fit: cover;
+  width: 100%;
+  transition: height 0.3s;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 23rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-img {
+    height: 13rem;
+  }
+}
