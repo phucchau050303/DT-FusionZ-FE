@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../components/image/carousel';
+import Carousel from '../components/image/Carousel';
 import ProductCategoryLayout from '../layouts/ProductCategoryLayout';
 
 // const Homepage = () => (
