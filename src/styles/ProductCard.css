@@ -18,7 +18,7 @@
 
 .product-card:hover {
     transform: translateY(-5px);
-    cursor: alias;
+    cursor: pointer;
 }
 
 .card-img {

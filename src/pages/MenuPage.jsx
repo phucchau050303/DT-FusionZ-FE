@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 const MenuPage = () => {
   function handleClickToFoodDetails(){
-    alert('You clicked me!');
+    window.location.href = '/item-info';
   }
 
   const sampleProduct = {
