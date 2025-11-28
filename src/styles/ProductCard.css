@@ -1,12 +1,13 @@
 .product-card .title-text {
     font-size: 1.4rem;
     font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 .product-price{
     font-size: 1.6rem;
     font-weight: bold;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     color: #F84A4A;
 }
 
@@ -14,6 +15,10 @@
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
 }
 
 .product-card:hover {
@@ -23,8 +28,23 @@
 
 .card-img {
     width: 100%;
-    height: 180px;
+    height: 200px; /* consistent image height */
     object-fit: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+/* keep body full height and align contents, pushing price to bottom */
+.product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    padding-bottom: 1.25rem;
+}
+
+/* ensure description takes available space so text doesn't stretch card */
+.product-card .card-text {
+    flex: 1 1 auto;
+    margin-bottom: 1rem;
 }
