@@ -25,7 +25,7 @@ function Homepage() {
     <div>
       <div className = "container-fluid p-0">
         <Carousel images={[
-          { src: "https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg", alt: "Delicious Dish 1" },
+          { src: "https://dtfusionzstorage.blob.core.windows.net/menu-images/dtfusionzstore.png", alt: "Delicious Dish 1" },
           { src: "https://www.medibank.com.au/content/dam/livebetter/en/images/eat/GettyImages-2182151106.jpg", alt: "Delicious Dish 2" },
           { src: "https://www.orchardhotel.com.au/wp-content/uploads/2024/10/The-Orchard-Hotel-Chatswood-Restaurant-Bar-48.jpg", alt: "Delicious Dish 3" },
       ]} />

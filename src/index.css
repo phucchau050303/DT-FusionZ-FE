@@ -70,3 +70,9 @@
 .extra-box:hover {
   background-color: #e7e4e4;
   cursor: pointer;}
+
+
+.category-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
