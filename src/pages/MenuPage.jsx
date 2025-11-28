@@ -18,25 +18,27 @@ const MenuPage = () => {
     window.location.href = `/item-info/${itemId}`;
   }
 
-  useEffect(() => {
-    let mounted = true;
-    const fetchCategories = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await api.get('api/menu/categories');
-        if(!mounted) return;
+useEffect(() => {
+  let mounted = true;
+  const fetchCategories = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await api.get('api/menu/categories');
+      if (!mounted) return;
+      setCategories(response.data || []);
+    } catch (err) {
+      console.error('Error fetching categories:', err);
+      if (!mounted) return;
+      setError(err.message || 'Error fetching categories');
+    } finally {
+      if (mounted) setLoading(false);
+    }
+  };
 
-        setCategories(response.data || []);
-      } catch (err) {
-        console.error('Error fetching categories:', err);
-        if(!mounted) return;
-        setError(err.message || 'Error fetching categories');
-      } finally {
-        if(!mounted)
-        setLoading(false);
-      }
-    };
+  fetchCategories();
+  return () => { mounted = false; };
+}, []);
 
     fetchCategories();
     return () => { mounted = false;};
