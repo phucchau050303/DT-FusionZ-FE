@@ -5,9 +5,9 @@ const productCategories = [
     {id: 2, name: 'BENTO', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/3F3W.avif"},
     {id: 3, name: 'RAMEN', image: "https://hikarimiso.com/wp-content/uploads/2024/05/Trimmed_03_Miso-Ramen_02_M.jpg"},
     {id: 4, name: 'RICE BOWLS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/Katsudon.avif"},
-    {id: 5, name: 'FISH N CHIPS', image: "https://www.thespruceeats.com/thmb/sdVTq0h7xZvJjPr6bE2fhh5M3NI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-best-fish-and-chips-recipe-434856-hero-01-27d8b57008414972822b866609d0af9b.jpg"},
-    {id: 6, name: 'SNACK N DESSERT', image: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2024/12/takoyaki-recipe-4790w.jpg"},
-    {id: 7, name: 'DRINKS', image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5zVfH2FPAZ68cp-oPOGisnO3Czi-aS-5NGg&s"}
+    {id: 5, name: 'FISH N CHIPS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/fishAndChips.avif"},
+    {id: 6, name: 'ENTREÉ', image: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2024/12/takoyaki-recipe-4790w.jpg"},
+    {id: 7, name: 'DRINKS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/Drinks.jpg"}
 ];
 
 
