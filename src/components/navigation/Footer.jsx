@@ -18,7 +18,7 @@ const Footer = () => (
 				<Col md={3} className="mb-3 mb-md-0">
 					<Typography variant="subtitle1" fontWeight="bold">Contact</Typography>
 					<Box display="flex" alignItems="center" mb={1}><Room sx={{ mr: 1 }} />18A Essex St, Footscray, VIC</Box>
-					<Box display="flex" alignItems="center" mb={1}><Phone sx={{ mr: 1 }} />+1 234 567 890</Box>
+					<Box display="flex" alignItems="center" mb={1}><Phone sx={{ mr: 1 }} />0406 265 708</Box>
 					<Box display="flex" alignItems="center" mb={1}><Email sx={{ mr: 1 }} />info@dtfusionz.com</Box>
 					<MuiLink href="https://maps.google.com/?q=123+Main+St" target="_blank" rel="noopener" color="inherit">View on Map</MuiLink>
 				</Col>

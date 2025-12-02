@@ -11,10 +11,10 @@ import "../styles/MenuItemInfo.css"; // new file for option styles
 // fallback item & fallback groups (keeps UI working if backend lacks groups)
 const fallbackItem = {
   id: 0,
-  name: "Tonkatsu Chicken",
+  name: "Empty Item",
   description: "Lorem Ipsum ...",
-  price: 20,
-  image: "/VeganBento.png",
+  price: 0,
+  image: "/dtfusionz.png",
 };
 
 const fallbackGroups = [
@@ -245,7 +245,7 @@ const MenuItemInfo = () => {
               alt={currentItem.name}
               className="img-item-info img-fluid rounded"
               onError={(e) => {
-                e.currentTarget.src = "/VeganBento.png";
+                e.currentTarget.src = "/dtfusionz.png";
               }}
             />
           </div>
