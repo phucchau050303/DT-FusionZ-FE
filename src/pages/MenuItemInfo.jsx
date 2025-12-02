@@ -18,38 +18,6 @@ const fallbackItem = {
 };
 
 const fallbackGroups = [
-  {
-    id: "sauces",
-    title: "Sauces",
-    // default option objects include id, name, priceModifier
-    options: [
-      { id: "tonkatsu", name: "Tonkatsu Sauce", priceModifier: 0 },
-      { id: "miso", name: "Miso Sauce", priceModifier: 0.5 },
-      { id: "spicy", name: "Spicy Mayo", priceModifier: 0.5 },
-      { id: "soy", name: "Soy Sauce", priceModifier: 0 },
-    ],
-    multi: true,
-  },
-  {
-    id: "spice",
-    title: "Spice Level",
-    options: [
-      { id: "mild", name: "Mild", priceModifier: 0 },
-      { id: "medium", name: "Medium", priceModifier: 0 },
-      { id: "hot", name: "Hot", priceModifier: 0 },
-    ],
-    multi: false,
-  },
-  {
-    id: "extras",
-    title: "Extras",
-    options: [
-      { id: "extrarice", name: "Extra Rice", priceModifier: 1.5 },
-      { id: "extranoodles", name: "Extra Noodles", priceModifier: 1.5 },
-      { id: "extraegg", name: "Extra Egg", priceModifier: 1 },
-    ],
-    multi: true,
-  },
 ];
 
 const MenuItemInfo = () => {
@@ -62,7 +30,7 @@ const MenuItemInfo = () => {
   const [error, setError] = useState(null);
 
   const getImageUrl = (url) => {
-    if (!url) return "/VeganBento.png";
+    if (!url) return "/dtfusionz.png";
     if (url.startsWith("http")) return url;
     if (url.startsWith("/")) return url;
     const base = import.meta.env.VITE_API_URL || "";

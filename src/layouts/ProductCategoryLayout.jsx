@@ -1,13 +1,13 @@
 import ProductCategoryCard from "../components/products/ProductCategoryCard";
 
 const productCategories = [
-    {id: 1, name: 'SPECIAL OF THE DAY', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/SobaNoodlesSalad.avif"},
+    {id: 1, name: 'SPECIAL OF THE DAY', image: "ShakyBeef.JPG"},
     {id: 2, name: 'BENTO', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/3F3W.avif"},
-    {id: 3, name: 'RAMEN', image: "https://hikarimiso.com/wp-content/uploads/2024/05/Trimmed_03_Miso-Ramen_02_M.jpg"},
+    {id: 3, name: 'RAMEN', image: "SobaNoodles.jpg"},
     {id: 4, name: 'RICE BOWLS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/Katsudon.avif"},
     {id: 5, name: 'FISH N CHIPS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/fishAndChips.avif"},
-    {id: 6, name: 'ENTREÉ', image: "https://iamafoodblog.b-cdn.net/wp-content/uploads/2024/12/takoyaki-recipe-4790w.jpg"},
-    {id: 7, name: 'DRINKS', image: "https://dtfusionzstorage.blob.core.windows.net/menu-images/Drinks.jpg"}
+    {id: 6, name: 'ENTREÉ', image: "pankPrawn.avif"},
+    {id: 7, name: 'DRINKS', image: "coke.webp"}
 ];
 
 

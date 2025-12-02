@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Box, Typography, Link as MuiLink, IconButton, TextField, Button } from '@mui/material';
 import { Facebook, Instagram, Twitter, YouTube, Room, Email, Phone } from '@mui/icons-material';
-import logo from '../../../public/vite.svg'; // Update path to your logo
+import logo from '../../../public/dtfusionz.png'; // Update path to your logo
 
 const currentYear = new Date().getFullYear();
 

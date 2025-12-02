@@ -1,5 +1,3 @@
-
-
 import '../../styles/ProductCategoryCard.css';
 
 const ProductCategoryCard = ({ category, onClick, large, wide }) => {

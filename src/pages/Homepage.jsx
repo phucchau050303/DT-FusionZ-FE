@@ -26,8 +26,6 @@ function Homepage() {
       <div className = "container-fluid p-0">
         <Carousel images={[
           { src: "https://dtfusionzstorage.blob.core.windows.net/menu-images/dtfusionzstore.png", alt: "Delicious Dish 1" },
-          { src: "https://www.medibank.com.au/content/dam/livebetter/en/images/eat/GettyImages-2182151106.jpg", alt: "Delicious Dish 2" },
-          { src: "https://www.orchardhotel.com.au/wp-content/uploads/2024/10/The-Orchard-Hotel-Chatswood-Restaurant-Bar-48.jpg", alt: "Delicious Dish 3" },
       ]} />
       </div>
       <div className = "container mt-5 mb-5">
