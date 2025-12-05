@@ -7,6 +7,7 @@ const NavBar = () => (
     <Container className="justify-content-between ms-0">
       <div className = "brand-background">
         <Navbar.Brand href="/" className="navbar-brand-font">DT FusionZ</Navbar.Brand>
+        <Navbar.Brand href="/" className="navbar-brand-font" style={{fontSize: '1.2rem'}}>ebi fine food</Navbar.Brand>
       </div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
